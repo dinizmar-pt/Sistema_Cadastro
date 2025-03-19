@@ -7,6 +7,6 @@ urlpatterns = [
 
     path('', views.home, name='home'),
     # usuarios.com/usuarios
-    path('usuarios/',views.usuarios,name='listagem_usurios')
+    path('usuarios/',views.usuarios,name='listagem_usuarios')
 
 ]
