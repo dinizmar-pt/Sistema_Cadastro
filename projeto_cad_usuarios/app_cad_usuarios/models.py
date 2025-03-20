@@ -4,4 +4,4 @@ class Usuario(models.Model):
     id_usuario = models.AutoField(primary_key=True)  
     nome = models.TextField(max_length=255)
     idade = models.IntegerField()
-    email = models.EmailField(max_length=200) 
+    email = models.EmailField(max_length=150) 
