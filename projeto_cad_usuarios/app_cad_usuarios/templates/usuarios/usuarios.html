@@ -1,14 +1,15 @@
 
 {% extends 'usuarios/base.html' %}    
 {% block conteudo %}    
-<div class=""container"> 
+<div class="container"> 
     <h1>Usuários Cadastrados</h1>
+    
     <table class="table table-boardered table-striped">
         <tr>
-            <th>id</th>
-            <th>nome</th>
-            <th>idade</th>
-            <th>email</th>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>E-mail</th>
         </tr>
         {% for usuario in usuarios %}
         <tr>
